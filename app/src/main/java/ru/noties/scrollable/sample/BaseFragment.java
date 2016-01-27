@@ -16,10 +16,18 @@ public abstract class BaseFragment extends Fragment implements CanScrollVertical
 
     protected <V> V findView(View view, int id) {
         //noinspection unchecked
+<<<<<<< 01aa3e2976a54d1f9e56001011891d6b07052c62
+=======
+        //123
+>>>>>>> 12345565
         return (V) view.findViewById(id);
     }
 
     public abstract CharSequence getTitle(Resources r);
+<<<<<<< 01aa3e2976a54d1f9e56001011891d6b07052c62
+=======
+
+>>>>>>> 12345565
     public abstract String getSelfTag();
 
     protected int getColor() {
